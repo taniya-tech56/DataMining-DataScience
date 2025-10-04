@@ -3,7 +3,7 @@
 a = 10
 b = 22
 
-# Add the numbers
+# Add the numbers 
 sum = a + b
 
 # Print the result

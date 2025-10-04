@@ -8,7 +8,7 @@ X, y_true = make_blobs(n_samples=300, centers=3, cluster_std=0.60, random_state=
 
 # Apply KMeans algorithm
 kmeans = KMeans(n_clusters=3, random_state=0)
-kmeans.fit(X)
+kmeans.fit(X)  
 
 # Get cluster centers and labels
 centers = kmeans.cluster_centers_
